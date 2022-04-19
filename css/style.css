@@ -41,7 +41,20 @@ nav#list ul li a:hover{
     border-radius: 20px;
 }
 
+#map {
+  height: 600px;
+  width: 800px;
+  border-radius: 0px;
+  margin: 40px auto;
+}
 
+#border {
+  height: 650px;
+  width: 850px;
+  background-color: #FFC594;
+  margin:0 auto;
+  overflow: hidden;
+}
 
 img{
     border: 1px solid #ddd;
