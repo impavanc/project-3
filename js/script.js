@@ -1,6 +1,6 @@
 function initMap() {
-  const castle = { lat: 54.6867, lng: 25.2906 }; 
-  const flag = { lat: 54.68, lng: 25.06 };
+  const castle = { lat: 41.83863002472576, lng: -87.6270380886158 }; 
+  const flag = { lat: 41.83855433094542, lng: -87.6273903853663 };
   
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 10,
