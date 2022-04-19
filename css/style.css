@@ -1,0 +1,51 @@
+
+html, body{
+	background-color: beige;
+	padding: 0% 7%;
+}
+
+nav#list {
+    margin: 0 auto;
+    display: table;
+}
+
+nav#list ul {
+    border: solid #ccc;
+    border-width: 1px 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    overflow: hidden;
+}
+
+nav#list ul li {
+    float: left;
+    display: inline;
+}
+
+nav#list ul li a{
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+
+nav#list ul li a:hover{
+    background-color: turquoise;
+    color: peachpuff;
+    border-radius: 20px;
+}
+
+
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
