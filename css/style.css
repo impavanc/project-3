@@ -62,3 +62,31 @@ img{
     padding: 5px;
     width: 300px;
 }
+
+@media screen and (min-width: 960px) {
+  #goldendoodle h2, p {
+    float: left;
+}
+
+  #goldendoodle img {
+    width: auto;
+    max-height: 25%;
+    border-radius: 50px;
+    float: right;
+    padding: 10px 10px;
+}
+
+}
+
+@media screen and (min-width: 600px) {
+  #goldendoodle {
+	text-align: center;
+  }
+  
+  #goldendoodle img {
+    width: auto;
+	max-height: 20%;
+	border-radius: 15px;
+	padding: 2.5px 2.5px;
+  }
+}
